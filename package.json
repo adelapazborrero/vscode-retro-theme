@@ -1,0 +1,25 @@
+{
+  "name": "retro-computing-theme",
+  "displayName": "Retro Computing",
+  "description": "A warm gray theme with amber accents inspired by vintage computing",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Retro Computing",
+        "uiTheme": "vs-dark",
+        "path": "./themes/retro-computing.json"
+      },
+      {
+        "label": "Retro Computing Light",
+        "uiTheme": "vs",
+        "path": "./themes/retro-computing-light.json"
+      }
+    ]
+  }
+}
